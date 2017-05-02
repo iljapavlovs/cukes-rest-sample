@@ -1,0 +1,18 @@
+{
+  "id":  {(client_id)},
+  "category": {
+    "id": 0,
+    "name": "sharik"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 0,
+      "name": "string"
+    }
+  ],
+  "status": "available"
+}

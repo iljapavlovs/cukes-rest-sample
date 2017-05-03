@@ -2,7 +2,7 @@ cukes-rest-sample
 =======================
 
 Example project using [cukes-rest](https://github.com/ctco/cukes-rest) tool. Project supports parallel exexcution using:
- 1. One "Runner" class per thread (use profile `parallel`). By "Runner" class is meant *RunCukesCheeseTest* class in this example.
+ 1. One "Runner" class per thread (use profile `parallel`). By "Runner" class is meant *FullCukesTestSuite* class in this example.
     * **NOTE** - in order to use this approach, you will need to create separate "runner" class per one thread. Tests belonging to one "runner" class will be executed sequentially.
     * More on this read [here](https://opencredo.com/running-cucumber-jvm-tests-in-parallel/).
  2. Using [cucumber-jvm-parallel-plugin](https://github.com/temyers/cucumber-jvm-parallel-plugin) (use profile `parallelPlugin`)
